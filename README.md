@@ -4,8 +4,8 @@
 > An easy tool for output one line with a specified number from a file or one from each file
 
 ## Usage
-`heil [options...] <lineno> <filename>`
-or
+`heil [options...] <lineno> <filename>`  
+or  
 `heil [options...] <lineno> <filenames...>`
 
 Lines are indexed from 1 (1, 2, 3, etc.)  
@@ -17,7 +17,7 @@ that previously had to be run through the pipeline to get the same result.
 - `+<integer>`  – output also some lines after
 - `+-<integer>` – output lines both before and after
 
-if several options of the same sign are specified, they will add up to the total sum.  
+If several options of the same sign are specified, they will add up to the total sum.  
 e.g.
 ```bash
 heil +2 -4 +3 +-1 -5 90 myfile.sh
