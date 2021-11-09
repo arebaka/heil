@@ -1,7 +1,9 @@
 # heil v1.0
 *head | tail*
-
 > An easy tool for output one line with a specified number from a file or one from each file
+
+![](https://img.shields.io/tokei/lines/github/arebaka/heil)
+![](https://img.shields.io/github/repo-size/arebaka/heil)
 
 ## Usage
 `heil [options...] <lineno> <filename>`  
