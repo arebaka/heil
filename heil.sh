@@ -32,7 +32,7 @@ Options:
   +<integer>  - output also some lines after
   +-<integer> - output lines both before and after
 
-if several options of the same sign are specified, they will add up to the total sum.
+If several options of the same sign are specified, they will add up to the total sum.
 e.g.
   $0 +2 -4 +3 +-1 -5 90 myfile.sh
 will output the line 90, 10 lines before (4 + 1 + 5) and 6 lines after (2 + 3 + 1).
